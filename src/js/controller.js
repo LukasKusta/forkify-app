@@ -125,5 +125,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   pagiantionView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('Sveiki atvykę į maisto appsa!');
 };
 init();
